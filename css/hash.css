@@ -49,3 +49,10 @@ form button{
 form button:active{
     background: #015101;
 }
+
+.required_notification{font-size: 8px;}
+
+.required_notification{color: #ec0303;
+    margin: 5px 0,0,0; display: inline;
+    float: right;
+}
