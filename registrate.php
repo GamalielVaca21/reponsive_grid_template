@@ -9,9 +9,10 @@
 <body>
     <form id="form1" action="" method="POST" autocomplete="off">
         <h1>Registro de Usuarios</h1>
-
+        <span class="required notification">*Agregue sus datos</span>
+        <br><br>
         <label for="">Usuario</label>
-        <input type="text" name="usuario_usu" id="">
+        <input type="text" name="usuario_usu" pattern="[A-Za-z].{10,}" placeholder="10 A 13 caracteres" maxlength="13" required/>
 
         <label for="">Password</label>
         <input type="password" name="password_usu" id="">
